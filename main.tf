@@ -11,5 +11,5 @@ provider "local" {}
 
 resource "local_file" "teste" {
     filename = "${path.module}/portfolio.txt"
-    content  = "Ambiente Configurado com Sucesso"
+    content  = "Esta alteração veio da minha branch de feature!"
 }
